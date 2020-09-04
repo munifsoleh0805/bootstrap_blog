@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <title>Latihan Bootstrap</title>
+    <style>
+        #overview{
+            background-image: url(asset/Images/background.jpg);
+            background-size: cover;
+        }
+        @media (max-width: 575.98px){
+            #overview-image{
+                display: none;
+            }
+            .container-fluid{
+                box-sizing: content-box;
+            }
+            #navigation{
+                display:none;
+            }
+            #description h1{
+                font-size:1.5rem;
+            }
+
+            #karir{
+                font-size :1.5rem;
+            }
+
+            h2{
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- block header -->
+    <div class="container">
+        <div class="row" id="header">
+            <div id="logo" class="col-6">
+                <a href="index.html">
+                    <img src="asset/Images/Soccer-Logo.png" alt="logo" style="height: 40px; width: 40px; margin-left: 20px;">
+                </a>
+            </div>
+            
+            <div id="navigation" class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Contac Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- block overview -->
+    <div id="overview" class="container-fluid">
+        <div class="row m-2">
+            <div id="description" class="col-6 pl-3 py-5">
+                <h1 class="text-light">Profil Lewandowski</h1>
+                <p class="text-light">
+                    Robert Lewandowski adalah seorang pemain sepak bola profesional yang berasa
+                    dari Polandia. Ia lahir pada tanggal 21 Agustus 1988 di Warsaw,
+                    Polandia. Ia merupakan salah satu punggawa dari klub Bayern Munchen dan 
+                    bermain pada penyerang.
+                </p>
+                <a class="btn btn-secondary" href="#">Bergabung</a>
+            </div>
+            <div id="overview-image" class="col-6 py-5">
+                <img src="asset/Images/Soccer-Logo.png" alt="bundes" width="200" height="200" >
+            </div>
+        </div>
+    </div>
+    
+    <!-- block artikel  -->
+    <div id="article" class="container">
+        <div class="row">
+            <div id="conten" class="col-sm-8">
+                <div class="list article mt-4" id="article-1">
+                    <img class="img-fluid" src="asset/Images/lewandowski_get.jpg" alt="lewandowski_get">
+                    <a href="#">Artikel</a>
+                    <div id="author">
+                        <img class="rounded-circle float-left" src="asset/Images/download.png" alt="download" width="48" height="48">
+                        <p class="float-left pt-2 pl-2">Munif 4 September 2020</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <h2 id="karir" class="display-4">Karir Lewandowski</h2>
+                    <p>Lewandowski adalah pesepakbola terbaik yang pernah
+                        dimiliki Polandia, dirinya sukses mengukir prestasi dengan berbagai klub yang pernah di belanya.
+                        Namun di level timnas dirinya belum mampu menghadirkan trofi,
+                        Lewy pernah berseragam timnas polandia u-21 tahun 2008 dan kemudian
+                        melakukan debut bersama tim senior pada 10 september 2008 melawan San Marino.</p>
+                        <a class="btn btn-secondary" href="#">Read More</a>
+                    </div>
+                </div>
+                <div id="sidebar" class="col-sm-4">
+                    <ul class="list-group">
+                        <li class="list-group-item" ><a href="#article-1">Karir Lewandowski</a></li>
+                        <li class="list-group-item"><a href="#keluarga">Keluarga</a></li>
+                        <li class="list-group-item"><a href="#gaya bermain">Gaya Bermain</a></li>
+                        <li class="list-group-item"><a href="#mantan team">Mantan Team</a></li>
+                        <li class="list-group-item"><a href="#prestasi">Prestasi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- block footer -->
+        <div class="container-fluid mt-5 bg-dark">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 id="keluarga" class="text-white">Keluarga</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark border-0 text-white">Krzysztof adalah Ayah</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Iwona adalah Ibu</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Milena saudara kandung</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <h2 id="gaya bermain" class="text-white">Gaya Bermain</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark border-0 text-white">Cekatan</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Mampu Memanfaatkan Peluang</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Memiliki Insting Tajam</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <h2 id="mantan team" class="text-white">Mantan Team</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark border-0 text-white">Borussia Dortmund</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Lech Pocnan</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Bayern Munchen</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <h2 id="prestasi" class="text-white">Prestasi</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark border-0 text-white">Juara Football-Bundesliga:2010-2011</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Juara Champion league:2019-2020</li>
+                        <li class="list-group-item bg-dark border-0 text-white">Pencetak Goal Terbanyak di Bundes Liga 2013-2014</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="asset/js/jquery-3.5.1.slim.min.js"></script>
+        <script src="asset/js/popper.min.js"></script>
+        <script src="asset/js/bootstrap.min.js"></script>
+    </body>
+    </html>
